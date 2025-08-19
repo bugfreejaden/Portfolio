@@ -1,5 +1,7 @@
 const lines = [
-  "Opportunities don't happen, you create them"
+  "Opportunities don't happen, you create them",
+  "Code is poetry written in logic",
+  "Innovation distinguishes between a leader and a follower"
 ];
 
 const typedText = document.getElementById('typing');
