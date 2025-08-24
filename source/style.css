@@ -218,8 +218,64 @@ body{
 }
 
 .about-section{
-
   background-color: black;
   padding: 50px;
   color: white;
+}
+
+/* Projects Page Styles */
+.projects-hero {
+  background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('./images/dark-background.png');
+  background-size: cover;
+  background-position: center;
+  min-height: 40vh;
+  display: flex;
+  align-items: center;
+}
+
+.project-card {
+  box-shadow: 0 4px 15px rgba(255, 255, 255, 0.1);
+  transition: all 0.3s ease;
+}
+
+.project-card:hover {
+  box-shadow: 0 8px 25px rgba(255, 255, 255, 0.2);
+  transform: translateY(-5px);
+}
+
+/* Skills Section Enhancement */
+.skills-section .grid > div:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 25px rgba(255, 255, 255, 0.1);
+}
+
+/* CTA Section */
+.cta-section {
+  background: linear-gradient(135deg, #1a1a1a 0%, #000000 100%);
+}
+
+/* Enhanced Button Styles */
+.cta-section a:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 20px rgba(255, 255, 255, 0.1);
+}
+
+/* Improved Typography */
+.projects-grid h3 {
+  text-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+/* Responsive Improvements */
+@media (max-width: 768px) {
+  .projects-hero h1 {
+    font-size: 2.5rem;
+  }
+  
+  .projects-hero p {
+    font-size: 1rem;
+  }
+  
+  .project-card {
+    margin-bottom: 2rem;
+  }
 }
